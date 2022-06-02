@@ -19,6 +19,9 @@ function body(){
     tl.to(".letter", {drawSVG:"100%", duration: 3, delay: 2}, 'animationBegin');
     tl.to("#wholeSvg", {backgroundColor: "#0B4266", duration: 3, delay:2}, 'animationBegin')
     tl.to(".letter", {fillOpacity: 1, duration: 2, delay: 3}, 'animationBegin')
+    tl.to("#entertainment", {opacity: 1, duration: 2, delay: 3}, 'animationBegin')
+    tl.to(".svgPath", {x: 500, duration: 2, delay: 5}, 'animationBegin')
+    tl.to("#entertainment", {duration: 2, x:500, delay: 5}, 'animationBegin')
     return tl; 
 
 }
